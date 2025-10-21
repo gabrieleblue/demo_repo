@@ -1,0 +1,68 @@
+{
+  "id": "cmh15cbez000fo98cjho7u0up",
+  "externalId": "analysis-20251021-223838",
+  "questionText": "Based on the current project state analysis and agent insights, what are the key decisions needed for the tech domain?",
+  "context": {
+    "currentState": {
+      "issues": {
+        "errors": 0,
+        "warnings": 15,
+        "codeSmells": [
+          "Large bundle chunks",
+          "Unused dependencies",
+          "Heavy third-party libs"
+        ]
+      },
+      "metrics": {
+        "bundleSize": "3.2MB",
+        "timeToInteractive": "5.2s",
+        "firstContentfulPaint": "2.1s",
+        "cumulativeLayoutShift": 0.15,
+        "largestContentfulPaint": "4.3s"
+      },
+      "patterns": {
+        "missing": [
+          "Service Worker",
+          "CDN usage",
+          "Image optimization"
+        ],
+        "detected": [
+          "Lazy loading",
+          "Code splitting",
+          "Memoization"
+        ]
+      },
+      "dependencies": {
+        "found": [
+          "webpack",
+          "babel",
+          "loadash"
+        ],
+        "heaviest": {
+          "lodash": "71KB",
+          "moment.js": "67KB",
+          "@mui/icons-material": "1.2MB"
+        }
+      }
+    }
+  },
+  "askingAgent": "wait-human-in-the-loop-workflow",
+  "askedAt": "2025-10-21T22:39:08.748Z",
+  "answer": "absolutely",
+  "answeredBy": {
+    "id": "cmgz7r8on0000l91ih4aofsyy",
+    "name": "Local Dev User",
+    "email": "dev@localhost"
+  },
+  "answeredAt": "2025-10-21T22:39:20.079Z",
+  "projectId": "cmgz80u2p0000txlicg78ans2",
+  "projectName": "demo_repo",
+  "metadata": {
+    "priority": "MEDIUM",
+    "tags": [],
+    "branchName": "main",
+    "agentContext": {
+      "sourceFilePath": "analysis-20251021-223838.json"
+    }
+  }
+}
