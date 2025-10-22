@@ -1,0 +1,25 @@
+{
+  "id": "cmh184mbv0009y5hujgd0vo8s",
+  "externalId": "analysis-20251021-235615",
+  "questionText": "Based on the current project state analysis and agent insights, what are the key decisions needed for the art domain?",
+  "context": {},
+  "askingAgent": "wait-human-in-the-loop-workflow",
+  "askedAt": "2025-10-21T23:57:08.491Z",
+  "answer": "ottimo!",
+  "answeredBy": {
+    "id": "cmgz7r8on0000l91ih4aofsyy",
+    "name": "Local Dev User",
+    "email": "dev@localhost"
+  },
+  "answeredAt": "2025-10-22T00:58:43.588Z",
+  "projectId": "cmgz80u2p0000txlicg78ans2",
+  "projectName": "demo_repo",
+  "metadata": {
+    "priority": "MEDIUM",
+    "tags": [],
+    "branchName": "main",
+    "agentContext": {
+      "sourceFilePath": "analysis-20251021-235615.json"
+    }
+  }
+}
