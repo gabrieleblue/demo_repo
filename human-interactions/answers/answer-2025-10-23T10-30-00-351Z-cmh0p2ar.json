@@ -1,0 +1,25 @@
+{
+  "id": "cmh0p2ar50007z6krevjucj7r",
+  "externalId": "analysis-20251021-150140",
+  "questionText": "Based on the current project state analysis and agent insights, what are the key decisions needed for the tech domain?",
+  "context": {},
+  "askingAgent": "wait-human-in-the-loop-workflow",
+  "askedAt": "2025-10-21T15:03:27.473Z",
+  "answer": "ok",
+  "answeredBy": {
+    "id": "cmgz7r8on0000l91ih4aofsyy",
+    "name": "Local Dev User",
+    "email": "dev@localhost"
+  },
+  "answeredAt": "2025-10-23T10:30:00.351Z",
+  "projectId": "cmgz80u2p0000txlicg78ans2",
+  "projectName": "demo_repo",
+  "metadata": {
+    "priority": "MEDIUM",
+    "tags": [],
+    "branchName": "main",
+    "agentContext": {
+      "sourceFilePath": "analysis-20251021-150140.json"
+    }
+  }
+}
